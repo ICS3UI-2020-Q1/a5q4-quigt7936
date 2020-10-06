@@ -19,7 +19,6 @@ public class Main {
       // finds the new balance 
       // the interest is / 100 because the interest was in percent form not double form
       balance = balance + balance * (interest / 100);
-      System.out.println(balance);
     }
     // tells the user their new balance
     System.out.println("Your final balance would be $" + balance);
