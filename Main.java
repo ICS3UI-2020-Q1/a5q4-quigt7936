@@ -6,11 +6,14 @@ import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
+  
     // ask the user the balance, interest and years
     System.out.println("Please enter a starting balance");
     double balance = input.nextDouble();
+    
     System.out.println("Please enter your interest rate");
     double interest = input.nextDouble();
+    
     System.out.println("Please enter the number of years you will invest for");
     double years = input.nextDouble();
 
